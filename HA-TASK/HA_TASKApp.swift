@@ -11,7 +11,7 @@ import SwiftUI
 struct HA_TASKApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ItemsListView(viewModel: .init())
         }
     }
 }

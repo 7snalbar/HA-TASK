@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FCA65B5E28A7A438003A4511 /* ItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA65B5D28A7A438003A4511 /* ItemsListView.swift */; };
+		FCA65B6028A7A43F003A4511 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA65B5F28A7A43F003A4511 /* ListRow.swift */; };
+		FCA65B6228A7A444003A4511 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA65B6128A7A444003A4511 /* ItemDetailView.swift */; };
+		FCA65B6528A7A459003A4511 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA65B6428A7A459003A4511 /* ListViewModel.swift */; };
+		FCA65B6728A7A45E003A4511 /* UnidirectionalDataFlowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA65B6628A7A45E003A4511 /* UnidirectionalDataFlowType.swift */; };
+		FCA65B6928A7A462003A4511 /* ItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA65B6828A7A462003A4511 /* ItemDetailViewModel.swift */; };
+		FCA65B6D28A7A479003A4511 /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA65B6C28A7A479003A4511 /* StringExt.swift */; };
+		FCA65B6F28A7A47E003A4511 /* TrackerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA65B6E28A7A47E003A4511 /* TrackerService.swift */; };
+		FCA65B7128A7A483003A4511 /* ItemsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA65B7028A7A483003A4511 /* ItemsRequest.swift */; };
+		FCA65B7328A7A488003A4511 /* APIServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA65B7228A7A488003A4511 /* APIServiceError.swift */; };
+		FCA65B7528A7A48D003A4511 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA65B7428A7A48D003A4511 /* APIService.swift */; };
+		FCA65B7828A7A49F003A4511 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA65B7728A7A49F003A4511 /* Item.swift */; };
+		FCA65B7A28A7A4A3003A4511 /* ResultsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA65B7928A7A4A3003A4511 /* ResultsResponse.swift */; };
+		FCA65B7C28A7A4A9003A4511 /* AnySubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA65B7B28A7A4A9003A4511 /* AnySubscription.swift */; };
 		FCC2197F28A7A18700791154 /* HA_TASKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2197E28A7A18700791154 /* HA_TASKApp.swift */; };
 		FCC2198128A7A18700791154 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC2198028A7A18700791154 /* ContentView.swift */; };
 		FCC2198328A7A18800791154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC2198228A7A18800791154 /* Assets.xcassets */; };
@@ -14,6 +28,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FCA65B5D28A7A438003A4511 /* ItemsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsListView.swift; sourceTree = "<group>"; };
+		FCA65B5F28A7A43F003A4511 /* ListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		FCA65B6128A7A444003A4511 /* ItemDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		FCA65B6428A7A459003A4511 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		FCA65B6628A7A45E003A4511 /* UnidirectionalDataFlowType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnidirectionalDataFlowType.swift; sourceTree = "<group>"; };
+		FCA65B6828A7A462003A4511 /* ItemDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailViewModel.swift; sourceTree = "<group>"; };
+		FCA65B6C28A7A479003A4511 /* StringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		FCA65B6E28A7A47E003A4511 /* TrackerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerService.swift; sourceTree = "<group>"; };
+		FCA65B7028A7A483003A4511 /* ItemsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsRequest.swift; sourceTree = "<group>"; };
+		FCA65B7228A7A488003A4511 /* APIServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceError.swift; sourceTree = "<group>"; };
+		FCA65B7428A7A48D003A4511 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FCA65B7728A7A49F003A4511 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FCA65B7928A7A4A3003A4511 /* ResultsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsResponse.swift; sourceTree = "<group>"; };
+		FCA65B7B28A7A4A9003A4511 /* AnySubscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnySubscription.swift; sourceTree = "<group>"; };
 		FCC2197B28A7A18700791154 /* HA-TASK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HA-TASK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC2197E28A7A18700791154 /* HA_TASKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HA_TASKApp.swift; sourceTree = "<group>"; };
 		FCC2198028A7A18700791154 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +60,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FCA65B5A28A7A3F0003A4511 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCA65B6128A7A444003A4511 /* ItemDetailView.swift */,
+				FCA65B5F28A7A43F003A4511 /* ListRow.swift */,
+				FCA65B5D28A7A438003A4511 /* ItemsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FCA65B6328A7A450003A4511 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FCA65B6628A7A45E003A4511 /* UnidirectionalDataFlowType.swift */,
+				FCA65B6828A7A462003A4511 /* ItemDetailViewModel.swift */,
+				FCA65B6428A7A459003A4511 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FCA65B6B28A7A46E003A4511 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FCA65B7228A7A488003A4511 /* APIServiceError.swift */,
+				FCA65B7428A7A48D003A4511 /* APIService.swift */,
+				FCA65B7028A7A483003A4511 /* ItemsRequest.swift */,
+				FCA65B6E28A7A47E003A4511 /* TrackerService.swift */,
+				FCA65B6C28A7A479003A4511 /* StringExt.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FCA65B7628A7A495003A4511 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCA65B7B28A7A4A9003A4511 /* AnySubscription.swift */,
+				FCA65B7928A7A4A3003A4511 /* ResultsResponse.swift */,
+				FCA65B7728A7A49F003A4511 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FCC2197228A7A18700791154 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +121,10 @@
 		FCC2197D28A7A18700791154 /* HA-TASK */ = {
 			isa = PBXGroup;
 			children = (
+				FCA65B7628A7A495003A4511 /* Models */,
+				FCA65B6B28A7A46E003A4511 /* Services */,
+				FCA65B6328A7A450003A4511 /* ViewModels */,
+				FCA65B5A28A7A3F0003A4511 /* Views */,
 				FCC2197E28A7A18700791154 /* HA_TASKApp.swift */,
 				FCC2198028A7A18700791154 /* ContentView.swift */,
 				FCC2198228A7A18800791154 /* Assets.xcassets */,
@@ -137,8 +211,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA65B6228A7A444003A4511 /* ItemDetailView.swift in Sources */,
+				FCA65B7328A7A488003A4511 /* APIServiceError.swift in Sources */,
+				FCA65B6028A7A43F003A4511 /* ListRow.swift in Sources */,
+				FCA65B6F28A7A47E003A4511 /* TrackerService.swift in Sources */,
+				FCA65B7828A7A49F003A4511 /* Item.swift in Sources */,
+				FCA65B6928A7A462003A4511 /* ItemDetailViewModel.swift in Sources */,
+				FCA65B6528A7A459003A4511 /* ListViewModel.swift in Sources */,
+				FCA65B6D28A7A479003A4511 /* StringExt.swift in Sources */,
+				FCA65B7A28A7A4A3003A4511 /* ResultsResponse.swift in Sources */,
 				FCC2198128A7A18700791154 /* ContentView.swift in Sources */,
+				FCA65B5E28A7A438003A4511 /* ItemsListView.swift in Sources */,
+				FCA65B7528A7A48D003A4511 /* APIService.swift in Sources */,
 				FCC2197F28A7A18700791154 /* HA_TASKApp.swift in Sources */,
+				FCA65B7C28A7A4A9003A4511 /* AnySubscription.swift in Sources */,
+				FCA65B6728A7A45E003A4511 /* UnidirectionalDataFlowType.swift in Sources */,
+				FCA65B7128A7A483003A4511 /* ItemsRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +352,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HA-TASK/Preview Content\"";
+				DEVELOPMENT_TEAM = D4736V797Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -281,6 +371,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HA-TASK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,9 +383,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HA-TASK/Preview Content\"";
+				DEVELOPMENT_TEAM = D4736V797Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,6 +402,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HA-TASK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
